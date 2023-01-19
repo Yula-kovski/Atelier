@@ -6,12 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/media.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <title>Atelier</title>
   </head>
   <body>
     <div class="wrapper">
       <header class="header">
-        <div class="header__container">
+        <div class="header__container"data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1500">
           <a href="#!" class="header__logo"> Atelier. </a>
           <nav class="header__menu menu">
             <ul class="menu__list">
@@ -43,7 +46,9 @@
       <main class="page">
         <div class="page__main-block main-block">
           <div class="main-block__container container">
-            <div class="main-block__body body">
+            <div class="main-block__body body"data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000">
               <div class="main-block__text text">
                 WE ARE Atelier Creative Agency
               </div>
@@ -60,7 +65,8 @@
           </div>
         </div>
       </main>
-      <section class="template container">
+      <section class="template container"data-aos="fade-up"
+        data-aos-duration="2000">
         <div class="template__template-block body">
           <div class="template-block__container">
             <div class="template-block__body">
@@ -201,12 +207,15 @@
         </div>
       </section>
       <section class="bg"></section>
-      <section class="services container">
+      <section class="services container"data-aos="fade-right"
+        data-aos-easing="linear"
+        data-aos-duration="1500">
         <div class="services__services-block body">
           <div class="services-block__container">
             <div class="services-block__body">
               <div class="services-block__text text">Our Core Features</div>
-              <h2 class="services-block__title title">Our Services</h2>
+              <h2 class="services-block__title title"data-aos="fade-up"
+                data-aos-anchor-placement="center-bottom">Our Services</h2>
             </div>
           </div>
         </div>
@@ -237,7 +246,9 @@
           </div>
         </div>
       </section>
-      <section class="instagram container">
+      <section class="instagram container"data-aos="fade-left"
+        data-aos-easing="linear"
+        data-aos-duration="1500">
         <div class="instagram__block">
           <img src="img/inst/vector-inst.svg" class="vector" alt="vector" />
           <img src="img/inst/inst-img1.jpg" class="img-img" alt="imge" />
@@ -262,7 +273,9 @@
           <img src="img/inst/inst-img4.jpg" class="img-img" alt="imge" />
         </div>
       </section>
-      <section class="newsletter container">
+      <section class="newsletter container"data-aos="fade-right"
+        data-aos-easing="linear"
+        data-aos-duration="1500">
         <div class="newsletter__newsletter-block body">
           <div class="newsletter-block__container">
             <div class="newsletter-block__body">
@@ -299,7 +312,9 @@
       </section>
 
       <footer class="footer container">
-        <div class="footer__container">
+        <div class="footer__container" data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom"
+          data-aos-duration="1500">
           <div class="footer__item">
             <p>Powered by</p>
             <p>Webflow</p>
@@ -314,5 +329,9 @@
     </div>
     <script src="https://code.jquery.com/jquery-3.6.3.slim.min.js"></script>
     <script src="js/my.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
