@@ -10,7 +10,7 @@
 }
 @media (max-width: 992px) {
   .header__buttons {
-    margin-left: 40px;
+    margin-left: 20px;
   }
   .instagram {
     gap: 25px;
@@ -58,8 +58,12 @@
   }
 }
 @media (max-width: 415px) {
+  .header {
+    justify-content: center;
+}
   .header__buttons {
-    display: none;
+     margin-left: 20px;
+    margin-right: 20px;
   }
   .card-block__grid-img {
     padding: 2px;
