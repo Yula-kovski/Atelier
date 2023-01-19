@@ -24,6 +24,9 @@
   .container {
     max-width: none;
   }
+  .header__buttons {
+    margin-left: 15px;
+}
   .main-block__text {
     margin-top: 40px;
   }
@@ -60,9 +63,9 @@
 @media (max-width: 415px) {
   .header {
     justify-content: center;
+    box-sizing: border-box;
 }
   .header__buttons {
-    margin-left: 15px;
     margin-right: 15px;
   }
   .card-block__grid-img {
