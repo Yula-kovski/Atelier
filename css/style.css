@@ -215,15 +215,16 @@ body {
 }
 .show-menu {
   display: block;
-  position: absolute;
-  background: rgba(0, 0, 0, 0.822);
-  left: 0px;
-  top: 0;
-  width: 100%;
-  padding: 10px 0 20px 50px;
-  z-index: 5;
-  margin: 80px 0 0;
-  font-size: 18px;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.822);
+    left: -100px;
+    top: 0;
+    width: 100vh;
+    padding: 10px 0 20px 50px;
+    z-index: 5;
+    margin: 80px 0 0;
+    font-size: 18px;
+    height: 100vh;
 }
 .button.menu-o {
   outline: none;
